@@ -11,15 +11,20 @@
             margin: 0;
             padding: 0;
         }
-        
+        a {
+            color:#FFFFFF;
+            text-decoration: none;
+        }
+        a p:hover{
+            color:#eeeeee;
+
+        }
+
         h3 {
             text-indent: 70px;
         }
         .title {
             flex: 1 1 auto;
-        }
-        a {
-            text-decoration: none;
         }
         
         .name img {
@@ -53,8 +58,9 @@
         }
         .bottom {
             display:flex;
+            border-top: 2px solid #eeeeee;
             color:#666666;
-            background-color: #eeeeee;
+            background-color: white;
         }
         
     </style>
@@ -63,16 +69,18 @@
     <div class="top">
         
         <div class="name">
-            <p>基金经理：<br>曹荣遥<br>编号：A20220218001508</p>
-            <img src="https://caotico0515.github.io/caotico-test-main/cxyao.png" width="80">
-            
+            <a href="https://gs.amac.org.cn/amac-infodisc/res/pof/person/personDetail.html?accountId=2202101907018558&userId=1701006109223828" target="_blank">
+                <p>基金经理：<br>曹荣遥<br>编号：A20220218001508</p>
+                <img src="https://caotico0515.github.io/caotico-test-main/cxyao.png" width="80">
+            </a>
+                       
         </div>
         <div class="title"><h3>净值图</h3></div>
         
     </div>
     <div class="center"><img src="https://caotico0515.github.io/caotico-test-main/total.png" alt="所有净值图片" width="100%"></div>
     <div class="bottom">
-            <p>说明：<br>之上有据稳健1号从2024.4月开始加入持仓风险度统计。</p>
+            <p>说明：<br>之上有据稳健1号从2024.4月开始加入持仓风险度统计。</p>      
     </div>
     
 </body>
